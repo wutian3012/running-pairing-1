@@ -1,0 +1,23 @@
+<html>
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/theme.css">
+<link rel="stylesheet" type="text/css" href="css/login-register.css">
+</head>
+
+<body>
+<div class="login-container">
+  <div class="login-box">
+    <h1 class="login-box__header">Login</h1>
+    <p class="login-box__message"><%=authMessage%></p>
+    <form action="/login" method="POST">
+      <input class="login-box__input" name="email" placeholder="Email" />
+      <input class="login-box__input" name="password" type="password" placeholder="Password" />
+      <button class="login-box__button">Login</button>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

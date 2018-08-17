@@ -1,0 +1,47 @@
+.hero {
+	height:100vh;
+	background-image: url("/img/tying.jpg");
+	background-size:cover;
+	background-position:center;
+	display:flex;
+	
+	
+	z-index:-2;
+	
+	align-items:center;
+	justify-content:center;
+}
+
+.hero__content {
+	color:white;
+	text-align:center;
+	z-index:1;
+}
+.hero__header {
+	font-size:75px;
+}
+.hero__leading {
+	font-size:50px;
+}
+.hero__button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px;
+	width:200px;
+	border-radius:10px;
+	margin-top:40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	
+	transition:opacity,0.5s;
+	
+}
+.hero__button:hover {
+	opacity:0.8;
+}
+.hero__button--blue {
+	background-color: #5588dd;
+}

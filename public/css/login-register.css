@@ -1,0 +1,43 @@
+body,html {
+	background-image:url("/img/duo.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-position:center;
+}
+
+.login-container {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:80vh;
+}
+
+.login-box {
+	box-shadow:0px 0px 2px rgba(0,0,0,0.2);
+	width:30%;
+	padding:20px;
+	background-color:rgba(255,255,255,0.8);
+}
+.login-box__input {
+	display:block;
+	width:100%;
+	padding:3px;
+	margin-bottom:5px;
+}
+.login-box__button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+	width:100%;
+	margin-top:40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	cursor:pointer;
+	transition:opacity,0.5s;
+}
+.login-box__button:hover {
+	opacity:0.8;
+}
